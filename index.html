@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>~P5~Simple~Weather~</title>
+  <title>~P5~Weather~</title>
 
   <link rel="stylesheet" type="text/css" href="css/semantic.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -17,11 +17,13 @@
 <body>
   <div class="ui">
     <div class="content">
-      <div class="buttonHold"><button class="js-geolocation ui inverted button"><i class="large marker icon"></i></button></div>
-      <div id="weather">
+      <div class="buttonHold ui horizontal list">
+        <button class="js-geolocation ui labeled icon inverted button item"><i class="marker icon"></i><p>Use Your Location</p></button>
+        <div class="zipcode ui icon action input item"><input type="text" placeholder="Zipcode..."><i class="circular search icon"></i></div>
       </div>
+      <div id="weather"></div>
     </div>
-  </div>  
+  </div>
 
   <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/semantic.js"></script>

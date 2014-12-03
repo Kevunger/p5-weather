@@ -7,7 +7,7 @@
 }
 
 body {
-    background: url(../img/bg.jpg) no-repeat;
+    background: url(../img/bg3.jpg) no-repeat;
     background-size: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -179,14 +179,15 @@ body {
 
 #weather .sun {
   display: inline-block;
-  padding-right: 50px;
+  padding-right: 30px;
   margin-top: 0px;
   color: #fff;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 300;
   text-align: center;
   text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);
 }
+
 
 #weather .low .icon,
 #weather .sun .icon,
@@ -197,7 +198,7 @@ body {
 #weather .wind {
   display: inline-block;
   color: #fff;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 300;
   text-align: center;
   text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);
@@ -211,16 +212,27 @@ body {
   font-size: 25px;
 }
 
-
-.buttonHold .button {
+.buttonHold {
+  height: 50px;
   width: 320px;
-  margin-top: 10px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
-.buttonHold .button .icon {
-  margin: 0px;
+.button p {
+  margin-left: 40px;
+}
+
+.buttonHold .button {
+  height: 38px;
+  width: 184px;
+  margin-left: 50px;
+  margin-right: auto;
+}
+
+.buttonHold .input {
+  width: 120px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: auto;
 }
 
 @media (max-width: 1080px){
