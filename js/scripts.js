@@ -23,7 +23,7 @@ function loadWeather(location, woeid) {
     woeid: woeid,
     unit: 'f',
     success: function(weather) {
-      html = '<div class="place"><button class="js-geolocation ui inverted large icon button"><i class="location arrow icon"></i></button><p class="city">'+weather.city+', '+weather.region+'</p></div><br><hr class="rule"></hr>';
+      html = '<div class="place"><p class="city">'+weather.city+', '+weather.region+'</p></div><br><hr class="rule"></hr>';
       html += '<div class="currently"><i class="icon-'+weather.code+'"></i>&nbsp;&nbsp;'+weather.currently+'</div>';
       html += '<div class="ui horizontal list"><div class="low item"><i class="chevron circle down icon"></i>'+weather.low+'&deg;</div>';
       html += '<div class="currTemp item">'+weather.temp+'&deg;</div>';
