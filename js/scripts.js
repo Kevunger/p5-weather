@@ -39,3 +39,4 @@ function loadWeather(location, woeid) {
     }
   });
 }
+
