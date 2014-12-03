@@ -6,7 +6,7 @@ if ("geolocation" in navigator) {
 }
 
 /* Where in the world are you? */
-$('.js-geolocation').on('click', function() {
+$('.js-geolocation').on('click tap', function() {
   navigator.geolocation.getCurrentPosition(function(position) {
     loadWeather(position.coords.latitude+','+position.coords.longitude); //load weather using your lat/lng coordinates
   });
