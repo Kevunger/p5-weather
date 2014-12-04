@@ -152,6 +152,7 @@ body {
   font-style: normal;
   line-height: 1.0;
 }
+
 #weather .high {
   color: #fff;
   margin-left: 0px;
@@ -212,27 +213,25 @@ body {
   font-size: 25px;
 }
 
-.buttonHold {
-  height: 50px;
-  width: 320px;
+.button {
+  margin-top: 5px !important;
+  margin-left: 5px !important;
+  margin-right: auto !important;
+  width: 175px;
 }
-
 .button p {
-  margin-left: 40px;
+  width: 115px;
+  position: relative;
+  right: 10px;
 }
 
-.buttonHold .button {
-  height: 38px;
-  width: 184px;
-  margin-left: 50px;
-  margin-right: auto;
-}
-
-.buttonHold .input {
+.input {
   width: 120px;
-  margin-top: 10px;
-  margin-left: 0px;
-  margin-right: auto;
+  display: inline-block !important;
+  position: absolute !important;
+  top: 6px;
+  right: 5px;
+  margin-left: auto !important;
 }
 
 @media (max-width: 1080px){
