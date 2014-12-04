@@ -219,6 +219,7 @@ body {
   margin-right: auto !important;
   width: 175px;
 }
+
 .button p {
   width: 115px;
   position: relative;
@@ -226,12 +227,17 @@ body {
 }
 
 .input {
-  width: 120px;
-  display: inline-block !important;
   position: absolute !important;
   top: 6px;
-  right: 5px;
+  right: 6px;
+  width: 125px;
   margin-left: auto !important;
+}
+
+.search {
+  width: 30px;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
 }
 
 @media (max-width: 1080px){
